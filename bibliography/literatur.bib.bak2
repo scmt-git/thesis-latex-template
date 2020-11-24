@@ -1,0 +1,35 @@
+% This file was created with JabRef 2.7.2.
+% Encoding: UTF8
+
+@ELECTRONIC{googlescholar,
+  author = {Google},
+  year = {2009},
+  title = {Google Scholar},
+  note = {\url{http://scholar.google.de/}},
+  url = {http://scholar.google.de/}
+}
+
+@ELECTRONIC{ieeeexplore,
+  author = {IEEE},
+  year = {2009},
+  title = {IEEE Xplore},
+  note = {\url{http://ieeexplore.ieee.org/}},
+  url = {http://ieeexplore.ieee.org/}
+}
+
+@ELECTRONIC{springerlink,
+  author = {Springer},
+  year = {2009},
+  title = {SpringerLink},
+  note = {\url{http://www.springerlink.de/}},
+  url = {http://www.springerlink.de/}
+}
+
+@ELECTRONIC{citeseerx,
+  author = {{The Pennsylvania State University}},
+  year = {2007},
+  title = {CiteSeerX},
+  note = {\url{http://citeseerx.ist.psu.edu/}},
+  url = {http://citeseerx.ist.psu.edu/}
+}
+

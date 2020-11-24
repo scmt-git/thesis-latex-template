@@ -1,0 +1,7 @@
+\chapter{Implementation}\label{chap:implementation}
+
+Hier soll eine kurze Beschreibung der Herausforderungen und der wichtigen Eckdaten der Implementation des zuvor präsentierten Konzeptes vorgenommen werden. Gegebenenfalls wird hier noch auf die Evaluation der Implementation eingegangen und deren Messwerte interpretiert.
+\begin{lstlisting}[language=java, numbers=none, caption=Exemplarisches Beobachter-Muster]
+public enableProcessDisruptionSubject: Subject<THaDisruption> = new Subject();  
+public enableProcessDisruptionObservable: Observable<THaDisruption> = 		  this.enableProcessDisruptionSubject.asObservable(); 
+\end{lstlisting}

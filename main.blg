@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[90] biber-MSWIN64:322> INFO - === 
+[119] Biber.pm:415> INFO - Reading 'main.bcf'
+[324] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
+[355] Biber.pm:4256> INFO - Processing section 0
+[356] Utils.pm:75> INFO - Globbing data source 'bibliography/literatur.bib'
+[377] Utils.pm:91> INFO - Globbed data source 'bibliography/literatur.bib' to bibliography/literatur.bib
+[398] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography/literatur.bib' for section 0
+[402] bibtex.pm:1653> INFO - LaTeX decoding ...
+[437] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography/literatur.bib'
+[572] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[572] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[572] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[572] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[593] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[601] bbl.pm:755> INFO - Output to main.bbl

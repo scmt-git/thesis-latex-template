@@ -1,0 +1,418 @@
+{
+  "disruptionCatalog": {
+    "ident": "string",
+    "disruptions": [
+      {
+        "ident": "string",
+        "subType": "ILLNESS_REPORT",
+        "actions": [
+          {
+            "ident": "string",
+            "role": "REGISTER",
+            "actions": [
+              "UI_SEARCH_PERSON",
+              "API_SEARCH_PERSON",
+              "UI_SET_DISRUPTION_START",
+              "UI_SET_DISRUPTION_END",
+              "UI_SAVE_DISRUPTION",
+              "API_POST_DISRUPTION",
+              "API_DISRUPTION_STATE_NEW",
+              "API_KPI_KEY_DRIVER"
+            ]
+          },
+          {
+            "ident": "string",
+            "role": "PROCESS",
+            "actions": [
+              "UI_SET_DISRUPTION_STATE_PROCESS",
+              "API_DISRUPTION_STATE_PROCESS",
+              "API_SEARCH_DRIVER_IN_TRIPS"
+            ]
+          }
+        ]
+      },
+      {
+        "ident": "string",
+        "subType": "DELAY_REPORT",
+        "actions": [
+          {
+            "ident": "string",
+            "role": "REGISTER",
+            "actions": [
+              "NOT_IMPLEMENTED"
+            ]
+          },
+          {
+            "ident": "string",
+            "role": "PROCESS",
+            "actions": [
+              "NOT_IMPLEMENTED"
+            ]
+          }
+        ]
+      },
+      {
+        "ident": "string",
+        "subType": "LINE_CANCELLED",
+        "actions": [
+          {
+            "ident": "string",
+            "role": "REGISTER",
+            "actions": [
+              "UI_SEARCH_LINE",
+              "API_SEARCH_LINE",
+              "UI_SET_DISRUPTION_START",
+              "UI_SET_DISRUPTION_END",
+              "UI_SAVE_DISRUPTION",
+              "API_POST_DISRUPTION",
+              "API_DISRUPTION_STATE_NEW",
+              "API_KPI_KEY_LINE"
+            ]
+          },
+          {
+            "ident": "string",
+            "role": "PROCESS",
+            "actions": [
+              "UI_SET_DISRUPTION_STATE",
+              "API_DISRUPTION_STATE_PROCESS",
+              "API_SEARCH_LINE_IN_TRIPS"
+            ]
+          }
+        ]
+      },
+      {
+        "ident": "string",
+        "subType": "VEHICLE_DEFECT",
+        "actions": [
+          {
+            "ident": "string",
+            "role": "REGISTER",
+            "actions": [
+              "UI_SEARCH_VEHICLE",
+              "API_SEARCH_VEHICLE",
+              "UI_SET_DISRUPTION_START",
+              "UI_SET_DISRUPTION_END",
+              "UI_SAVE_DISRUPTION",
+              "API_POST_DISRUPTION",
+              "API_DISRUPTION_STATE_NEW",
+              "API_KPI_KEY_VEHICLE"
+            ]
+          },
+          {
+            "ident": "string",
+            "role": "PROCESS",
+            "actions": [
+              "UI_SET_DISRUPTION_STATE_PROCESS",
+              "API_DISRUPTION_STATE_PROCESS",
+              "API_SEARCH_VEHICLE_IN_TRIPS"
+            ]
+          }
+        ]
+      }
+    ],
+    "solutions": [
+      {
+        "ident": "String",
+        "path": "DRIVER_HAS_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_DRIVER",
+          "UI_SELECT_TRIP_ASSIGNMENT",
+          "API_SEARCH_ALTERNATIVE_DRIVER",
+          "UI_SELECT_ALTERNATIVE_DRIVER",
+          "API_ASSIGN_ALTERNATIVE_DRIVER",
+          "API_KPI_KEY_DRIVER",
+          "UI_SET_DISRUPTION_STATE_SOLUTION",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "DRIVER_HAS_NO_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_DRIVER",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "VEHICLE_HAS_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_VEHICLE",
+          "UI_SELECT_TRIP_ASSIGNMENT",
+          "API_SEARCH_ALTERNATIVE_VEHICLE",
+          "UI_SELECT_ALTERNATIVE_DRIVER",
+          "API_ASSIGN_ALTERNATIVE_VEHICLE",
+          "API_KPI_KEY_VEHICLE",
+          "UI_SET_DISRUPTION_STATE_SOLUTION",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "VEHICLE_HAS_NO_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_VEHICLE",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "LINE_HAS_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_LINE",
+          "UI_SELECT_TRIP_ASSIGNMENT",
+          "API_KPI_KEY_LINE",
+          "API_CALCULATE_ALTERNATIVE_ROUTES",
+          "API_KPI_KEY_LINE",
+          "UI_SELECT_ALTERNATIVE_ROUTE",
+          "API_ADD_INTERMODAL_TOUR",
+          "API_KPI_KEY_LINE",
+          "API_SET_CANCEL_DISRUPTED_TOUR",
+          "UI_SET_DISRUPTION_STATE_SOLUTION",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "LINE_HAS_NO_TRIP_ASSIGNMENT",
+        "actions": [
+          "API_KPI_KEY_LINE",
+          "UI_SET_DISRUPTION_STATE_SOLUTION",
+          "API_DISRUPTION_STATE_SOLUTION"
+        ]
+      }
+    ],
+    "disruptionStates": [
+      {
+        "ident": "String",
+        "path": "DISRUPTION_STATE_NEW",
+        "actions": [
+          "API_ADD_DISRUPTION_STATE_NEW",
+          "UI_ENABLE_DSIRUPTION_STATE_IN_PROCESS",
+          "UI_DISABLE_DISRUPTION_STATE_DONE",
+          "UI_DISABLE_DISRUPTION_STATE_CANCEL"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "DISRUPTION_STATE_CANCEL",
+        "actions": [
+          "API_ADD_DISRUPTION_STATE_CANCEL",
+          "UI_DISABLE_DISRUPTION_STATE_DONE",
+          "UI_DISABLE_DISRUPTION_STATE_CANCEL",
+          "UI_DISABLE_DISRUPTION_STATE_IN_PROCESS"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "DISRUPTION_STATE_IN_PROCESS",
+        "actions": [
+          "API_ADD_DISRUPTION_STATE_IN_PROCESS",
+          "UI_ENABLE_DISRUPTION_STATE_CANCEL",
+          "UI_DISABLE_DISRUPTION_STATE_DONE",
+          "UI_DISABLE_DISRUPTION_STATE_IN_PROCESS"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "DISRUPTION_STATE_DONE",
+        "actions": [
+          "UI_DISABLE_DISRUPTION_STATE_CANCEL",
+          "UI_DISABLE_DISRUPTION_STATE_IN_PROCESS",
+          "UI_ENABLE_DISRUPTION_STATE_DONE",
+          "API_ADD_DISRUPTION_STATE_DONE"
+        ]
+      },
+      {
+        "ident": "String",
+        "path": "DISRUPTION_STATE_ESCALATION",
+        "actions": [
+          "UI_SOLUTION_FOUND",
+          "API_ADD_DISRUPTION_STATE_ESCALATION"
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "ident": "String",
+        "type": "API_DISRUPTION_STATE_NEW",
+        "paths": [
+          "DISRUPTION_STATE_NEW"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_DISRUPTION_STATE_PROCESS",
+        "paths": [
+          "DISRUPTION_STATE_IN_PROCESS",
+          "DISRUPTION_STATE_CANCEL"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_DISRUPTION_STATE_SOLUTION",
+        "paths": [
+          "DISRUPTION_STATE_DONE",
+          "DISRUPTION_STATE_ESCALATION"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_SEARCH_DRIVER_IN_TRIPS",
+        "paths": [
+          "DRIVER_HAS_TRIP_ASSIGNMENT",
+          "DRIVER_HAS_NO_TRIP_ASSIGNMENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_SEARCH_VEHICLE_IN_TRIPS",
+        "paths": [
+          "VEHICLE_HAS_TRIP_ASSIGNMENT",
+          "VEHICLE_HAS_NO_TRIP_ASSIGNMENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_SEARCH_LINE_IN_TRIPS",
+        "paths": [
+          "LINE_HAS_TRIP_ASSIGNMENT",
+          "LINE_HAS_NO_TRIP_ASSIGNMENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_KPI_KEY_LINE",
+        "paths": [
+          "kpi-train-cancelled-disruption-registered",
+          "kpi-disrupted-train-line-trips-found",
+          "kpi-disrupted-train-line-trip-selected",
+          "kpi-alternative-routes-found",
+          "kpi-alternative-route-assigned"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_KPI_KEY_DRIVER",
+        "paths": [
+          "kpi-illness-report-disruption-registered",
+          "kpi-disrupted-driver-trips-found",
+          "kpi-alternative-drivers-found",
+          "kpi-alternative-driver-assigned"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "API_KPI_KEY_VEHICLE",
+        "paths": [
+          "kpi-vehicle-defect-disruption-registered",
+          "kpi-disrupted-vehicle-trips-found",
+          "kpi-alternative-vehicles-found",
+          "kpi-alternative-vehicle-assigned"
+        ]
+      }
+    ],
+    "kpiKeys": [
+      {
+        "ident": "String",
+        "type": "kpi-illness-report-disruption-registered",
+        "actions": [
+          "SET_IDENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-disrupted-driver-trips-found",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-drivers-found",
+        "actions": [
+          "SET_IDENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-driver-assigned",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-vehicle-defect-disruption-registered",
+        "actions": [
+          "SET_IDENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-disrupted-vehicle-trips-found",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-vehicles-found",
+        "actions": [
+          "SET_IDENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-vehicle-assigned",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-train-cancelled-disruption-registered",
+        "actions": [
+          "SET_IDENT"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-disrupted-train-line-trips-found",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-disrupted-train-line-trip-selected",
+        "actions": [
+          "SET_IDENT",
+          "ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-routes-found",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      },
+      {
+        "ident": "String",
+        "type": "kpi-alternative-route-assigned",
+        "actions": [
+          "SET_IDENT",
+          "SET_ROUTE_KPI"
+        ]
+      }
+    ]
+  },
+  "error": false
+}

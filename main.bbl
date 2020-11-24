@@ -1,0 +1,355 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{acmdl}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=849731f4f6c962ebf3a016a8b55f644f}{%
+           family={{Association for Computing Machinery}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{849731f4f6c962ebf3a016a8b55f644f}
+      \strng{fullhash}{849731f4f6c962ebf3a016a8b55f644f}
+      \strng{bibnamehash}{849731f4f6c962ebf3a016a8b55f644f}
+      \strng{authorbibnamehash}{849731f4f6c962ebf3a016a8b55f644f}
+      \strng{authornamehash}{849731f4f6c962ebf3a016a8b55f644f}
+      \strng{authorfullhash}{849731f4f6c962ebf3a016a8b55f644f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://portal.acm.org/dl.cfm}}
+      \field{title}{ACM Digital Library}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://portal.acm.org/dl.cfm
+      \endverb
+      \verb{url}
+      \verb http://portal.acm.org/dl.cfm
+      \endverb
+    \endentry
+    \entry{googlescholar}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://scholar.google.de/}}
+      \field{title}{Google Scholar}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://scholar.google.de/
+      \endverb
+      \verb{url}
+      \verb http://scholar.google.de/
+      \endverb
+    \endentry
+    \entry{ieeeexplore}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=472abfae8142fdb6f39d081303e8af85}{%
+           family={IEEE},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{472abfae8142fdb6f39d081303e8af85}
+      \strng{fullhash}{472abfae8142fdb6f39d081303e8af85}
+      \strng{bibnamehash}{472abfae8142fdb6f39d081303e8af85}
+      \strng{authorbibnamehash}{472abfae8142fdb6f39d081303e8af85}
+      \strng{authornamehash}{472abfae8142fdb6f39d081303e8af85}
+      \strng{authorfullhash}{472abfae8142fdb6f39d081303e8af85}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://ieeexplore.ieee.org/}}
+      \field{title}{IEEE Xplore}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/
+      \endverb
+    \endentry
+    \entry{seusdiplomfaq}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=14c2c7d7f1fd5b0fc360d6cb0b25a21a}{%
+           family={{Juniorprofessur Software Engineering ubiquitärer Systeme}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \strng{fullhash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \strng{bibnamehash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \strng{authorbibnamehash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \strng{authornamehash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \strng{authorfullhash}{14c2c7d7f1fd5b0fc360d6cb0b25a21a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/seus/lehre/vorlagen_stud_arbeiten}}
+      \field{title}{Hinweise und Fragen zu studentischen Arbeiten}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/seus/lehre/vorlagen_stud_arbeiten
+      \endverb
+      \verb{url}
+      \verb http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/smt/seus/lehre/vorlagen_stud_arbeiten
+      \endverb
+    \endentry
+    \entry{knuth.literate84}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-4620}
+      \field{journaltitle}{Computer Journal}
+      \field{number}{2}
+      \field{title}{Literate programming}
+      \field{volume}{27}
+      \field{year}{1984}
+      \field{pages}{97\bibrangedash 111}
+      \range{pages}{15}
+    \endentry
+    \entry{lamportlatex}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
+           family={Lamport},
+           familyi={L\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman}%
+      }
+      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2.}
+      \field{title}{LATEX. A document preparation system. User's Guide and ReferenceManual}
+      \field{year}{1994}
+    \endentry
+    \entry{nm.epinjava}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=56cefd4051f7887c05141add0bc6aef9}{%
+           family={Nørmark},
+           familyi={N\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6afdbbe4bbdfd1453933de29cb288f8}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8388a36e915d3248c28f130066e9a171}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9b28121ad51753725e7711fa90ced7a}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vathanan},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09f7700c83c447b445275ef99de66b85}{%
+           family={Staun-Pedersen},
+           familyi={S\bibinithyphendelim P\bibinitperiod},
+           given={Søren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b2dc40133dcafcef6f9d3ee852b7695}{%
+           family={Sørensen},
+           familyi={S\bibinitperiod},
+           given={Kristian},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Educational Activities Department}%
+      }
+      \strng{namehash}{11b4c85ed699ec521a6af9736b12d1bc}
+      \strng{fullhash}{b7c8fe1926f2956c969c726dcd4f2e79}
+      \strng{bibnamehash}{11b4c85ed699ec521a6af9736b12d1bc}
+      \strng{authorbibnamehash}{11b4c85ed699ec521a6af9736b12d1bc}
+      \strng{authornamehash}{11b4c85ed699ec521a6af9736b12d1bc}
+      \strng{authorfullhash}{b7c8fe1926f2956c969c726dcd4f2e79}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE professional communication society international professional communication conference and Proceedings of the 18th annual ACM international conference on Computer documentation (IPCC/SIGDOC '00)}
+      \field{isbn}{0-7803-6431-7}
+      \field{title}{Elucidative programming in Java}
+      \field{year}{2000}
+      \field{pages}{483\bibrangedash 495}
+      \range{pages}{13}
+    \endentry
+    \entry{smartquestions}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b6d934baf396a5b811703e547fb4b38}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={Eric\bibnamedelima Steven},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{fullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{bibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorbibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authornamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorfullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.catb.org/~esr/faqs/smart-questions.html}}
+      \field{title}{How To Ask Questions The Smart Way}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://www.catb.org/~esr/faqs/smart-questions.html
+      \endverb
+      \verb{url}
+      \verb http://www.catb.org/~esr/faqs/smart-questions.html
+      \endverb
+    \endentry
+    \entry{springerlink}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c79e6794d92b660604601937a9b1c766}{%
+           family={Springer},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{fullhash}{c79e6794d92b660604601937a9b1c766}
+      \strng{bibnamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{authorbibnamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{authornamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{authorfullhash}{c79e6794d92b660604601937a9b1c766}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.springerlink.de/}}
+      \field{title}{SpringerLink}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://www.springerlink.de/
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.de/
+      \endverb
+    \endentry
+    \entry{citeseerx}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c19e6499abcd00c17f7a9c22ea676d0a}{%
+           family={{The Pennsylvania State University}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \strng{fullhash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \strng{bibnamehash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \strng{authorbibnamehash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \strng{authornamehash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \strng{authorfullhash}{c19e6499abcd00c17f7a9c22ea676d0a}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://citeseerx.ist.psu.edu/}}
+      \field{title}{CiteSeerX}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb http://citeseerx.ist.psu.edu/
+      \endverb
+      \verb{url}
+      \verb http://citeseerx.ist.psu.edu/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

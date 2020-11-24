@@ -1,0 +1,217 @@
+\documentclass[DIV=10, parskip=full*, headings=big, twopage, pdftex, 11pt, cleardoublepage=plain,
+				bibliography=totoc, listof=totoc, BCOR=12mm,
+				numbers=noenddot]{scrbook}
+
+\usepackage[ngerman]{babel}
+
+\usepackage{helvet}
+%\usepackage[a4paper, left=4cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % for correct guillemets, http://en.wikibooks.org/wiki/LaTeX/Internationalization#German
+\usepackage{lmodern} % to avoid rastered fonts, http://www.komascript.de/node/699
+\usepackage{scrhack}
+
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[style=authoryear,backref=true,minnames=3,abbreviate=false]{biblatex}
+
+%Paket laden
+\usepackage[automake, acronym, toc]{glossaries}
+%\usepackage[
+%nonumberlist, %keine Seitenzahlen anzeigen
+%acronym,      %ein Abkürzungsverzeichnis erstellen
+%toc,          %Einträge im Inhaltsverzeichnis
+%section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+%{glossaries}
+%\makeglossaries
+\makeglossaries
+\newglossaryentry{RCP}{name={RCP},description={Rich Client Platform}}
+\newglossaryentry{XPath}{name={XPath},description={XML Path Language}}
+\newglossaryentry{XHTML}{name={HTML},description={Extensible Hypertext Markup Language}}
+\newglossaryentry{SVN}{name={SVN},description={Subversion}}
+
+\usepackage{booktabs}
+
+\usepackage{typearea}
+
+%Abk�rzungsverzeichnis
+\usepackage{nomencl}
+\renewcommand{\nomname}{Abkürzungsverzeichnis}
+\setlength{\nomlabelwidth}{.20\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+
+\makenomenclature
+
+%Schriften
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\usepackage{microtype}
+\usepackage{amssymb}
+
+\usepackage{changebar}
+
+% Palatino als Brotschrift
+\fontfamily{phv}\fontseries{m}\selectfont
+
+% AvantGarde f�r �berschriften
+\renewcommand{\sfdefault}{phv} % default f�r alles serifenlose --> AvantGarde
+\setkomafont{subtitle}{\fontfamily{phv}\fontseries{m}\selectfont}
+\setkomafont{subject}{\fontfamily{phv}\fontseries{m}\selectfont}
+\setkomafont{pagehead}{\sffamily\footnotesize}
+\setkomafont{pagenumber}{\sffamily\footnotesize}
+
+\usepackage[onehalfspacing]{setspace}
+%%%%%%%%%%%%% FONT TYPES %%%%%%%%%%%%%%
+%ptm	Times
+%phv	Helvetica
+%pcr	Courier
+%pbk	Bookman
+%pag	Avant Garde
+%ppl	Palatino
+%bch	Charter
+%pnc	New Century Schoolbook
+%put	Utopia
+
+% bold letters in equation
+\usepackage{amsfonts}
+
+%Reference https://www.physicsforums.com/threads/mathbb-stuff-isnt-working.544078/
+
+
+\usepackage{xcolor}
+\definecolor{darkgray}{gray}{0.2} 
+\color{darkgray}
+\definecolor{lightgrey}{rgb}{0.9, 0.9, 0.9} 
+\definecolor{txtgreen}{rgb}{0.549, 0.749, 0.149}
+
+\usepackage{amssymb, amsmath}
+\usepackage[final]{pdfpages}
+
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{flafter}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tabulary}
+\usepackage{listings} % zum Einbringen von Code mit Syntaxhightlighting
+\usepackage{blindtext}
+\usepackage[perpage, ragged]{footmisc}
+
+\definecolor{darkred}{rgb}{0.85, 0.3, 0.4}
+\usepackage{courier}
+\lstset{
+		basicstyle=\small\ttfamily,
+		keywordstyle=\color{blue},
+		stringstyle=\color{darkred},
+		commentstyle=\tiny\color{gray}
+}
+% voreingestellte Programmiersprache: Java
+\lstset{
+        language=Java, 
+        breaklines=true, 
+        breakautoindent=true, 
+        breakatwhitespace=true, 
+        numbers=left, 
+        numberstyle=\tiny,
+        extendedchars=true,
+        rulesepcolor=\color{red},
+        frame=lines,
+        keywordstyle=\color{blue},
+        commentstyle=\color{gray},
+        stringstyle=\color{darkred},
+        emph={double,bool,int,unsigned,char,true,false,void},
+				emphstyle=\color{blue},
+				emph={Assert,Test},
+				emphstyle=\color{red},
+				emph={[2]\using,\#define,\#ifdef,\#endif}, emphstyle={[2]\color{blue}},
+		basicstyle=\small\ttfamily,
+		showstringspaces=false,
+		commentstyle=\tiny}
+		
+
+\usepackage[
+	pdftex,
+	hyperfootnotes=false,
+	bookmarks,
+	pdfpagelabels=true,
+	plainpages=false,
+	breaklinks]{hyperref} % f�r Verlinkungen in der PDF (extern und intern)
+
+
+%colorlinks=false needs to be true in order to apply color
+%\definecolor{lc}{cmyk}{0.6,0.16,1,0.015} % for screen output
+%\definecolor{lc}{cmyk}{0.05,1.0,0.8, 0.0} % -red for screen output
+%\definecolor{lc}{cmyk}{0.05,1.0,0.8, 0.2} % -red-dark1 for screen output
+%\definecolor{lc}{cmyk}{0.05,1.0,0.8, 0.4} % -red-dark2 for screen output
+%\definecolor{lc}{cmyk}{0.05,1.0,0.8, 0.6} % -red-dark3 for screen output
+%\definecolor{lc}{cmyk}{1.0,0.0,0.55,0.2} % -green for screen output
+%\definecolor{lc}{cmyk}{1.0,0.0,0.0,0.0} % -blue for screen output
+%\definecolor{lc}{cmyk}{1.0,0.3,0.8,0.3} % -yellow for screen output
+% turn on black link-color and set colorlink on false
+%\definecolor{lc}{cmyk}{75,68,67,90} % -black for screen output
+\newcommand{\printoutput}{\definecolor{lc}{cmyk}{0,0,0,1}} % for print output
+
+%turn off link coloring by comment outlinkcolor downwards
+\hypersetup{
+	pdftoolbar=true,
+	bookmarksopen,
+	bookmarksnumbered=false,
+	bookmarksopenlevel=1,
+	pdfdisplaydoctitle,	
+	colorlinks=false,
+	linkcolor=lc,
+	citecolor=lc,
+	filecolor=lc,
+	menucolor=lc,
+	urlcolor=lc	
+}
+%\graphicspath{{images/}}
+
+\usepackage[automark, footsepline]{scrlayer-scrpage}
+
+%%%%%%%%%% Tabellenanpassungen %%%%%%%%%%%%%%%%%%
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{2}
+
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{longtable}
+\usepackage{caption}
+\captionsetup{font=small}
+\captionsetup{labelfont=bf}
+\renewcommand{\tabularxcolumn}[1]{m{#1}} % Zellen von Tabellen immer vertikal zentrieren
+
+%%%%%%%%%%%%%% Listen %%%%%%%%%%%%%%%%%%%%%
+\usepackage{mdwlist}
+\usepackage{setspace}
+\renewcommand{\labelitemi}{\textperiodcentered}%{\sqbullet} %{\textperiodcentered}
+\usepackage{enumitem}
+\setlist{noitemsep}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+
+%%%%% Aufz�hlungsstyle %%%%%%%%
+\newcommand{\myitem}[1]{\textsf{\textbf{#1}}.\hspace{1em}}
+
+%%%%%%%%%% Pagina und Kolumnentitel %%%%%%%%%%%%%
+\pagestyle{scrheadings}
+\ohead{\headmark}
+\ihead{\IUMSauthor}
+
+\ofoot{\pagemark}
+\ifoot{\SCMTsecretdocument}
+
+\KOMAoptions{headsepline=0.5pt}
+\KOMAoptions{footsepline=0pt}
+
+\setcounter{secnumdepth}{3} % Tiefe der �berschriften, die Nummern bekommen
+\setcounter{tocdepth}{2}    % Inhaltsverzeichnis bis Tiefe 3
+
+%%%%%%%%%%%%%%%%%%%% Warnings %%%%%%%%%%%%%%%%%%%%%%%%
+\pdfsuppresswarningpagegroup=1
+
+%%%%%%%%%%%%%%%%%%%% TODO Notes %%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[colorinlistoftodos]{todonotes} % TODO notes
+
+\makeglossaries

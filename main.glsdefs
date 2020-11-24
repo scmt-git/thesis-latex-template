@@ -1,0 +1,330 @@
+\ifglsentryexists{PDF}{}%
+{%
+\gls@defglossaryentry{PDF}%
+{%
+name={PDF},%
+sort={PDF},%
+type={acronym},%
+first={Portable Document Format\glsspace (PDF)},%
+firstplural={Portable Document Formats\glsspace (PDFs)},%
+text={PDF},%
+plural={PDFs},%
+description={Portable Document Format},%
+descriptionplural={Portable Document Format\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Portable Document Format},%
+longplural={Portable Document Formats},%
+short={PDF},%
+shortplural={PDFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RCP}{}%
+{%
+\gls@defglossaryentry{RCP}%
+{%
+name={RCP},%
+sort={RCP},%
+type={acronym},%
+first={Rich Client Platform\glsspace (RCP)},%
+firstplural={Rich Client Platforms\glsspace (RCPs)},%
+text={RCP},%
+plural={RCPs},%
+description={Rich Client Platform},%
+descriptionplural={Rich Client Platform\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Rich Client Platform},%
+longplural={Rich Client Platforms},%
+short={RCP},%
+shortplural={RCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RIA}{}%
+{%
+\gls@defglossaryentry{RIA}%
+{%
+name={RIA},%
+sort={RIA},%
+type={acronym},%
+first={Rich Internet Application\glsspace (RIA)},%
+firstplural={Rich Internet Applications\glsspace (RIAs)},%
+text={RIA},%
+plural={RIAs},%
+description={Rich Internet Application},%
+descriptionplural={Rich Internet Application\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Rich Internet Application},%
+longplural={Rich Internet Applications},%
+short={RIA},%
+shortplural={RIAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RELAXNG}{}%
+{%
+\gls@defglossaryentry{RELAXNG}%
+{%
+name={RELAX NG},%
+sort={RELAX NG},%
+type={acronym},%
+first={Regular Language Description for XML New Generation\glsspace (RELAX NG)},%
+firstplural={Regular Language Description for XML New Generations\glsspace (RELAX NGs)},%
+text={RELAX NG},%
+plural={RELAX NGs},%
+description={Regular Language Description for XML New Generation},%
+descriptionplural={Regular Language Description for XML New Generation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Regular Language Description for XML New Generation},%
+longplural={Regular Language Description for XML New Generations},%
+short={RELAX NG},%
+shortplural={RELAX NGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SGML}{}%
+{%
+\gls@defglossaryentry{SGML}%
+{%
+name={SGML},%
+sort={SGML},%
+type={acronym},%
+first={Standard Generalized Markup Language\glsspace (SGML)},%
+firstplural={Standard Generalized Markup Languages\glsspace (SGMLs)},%
+text={SGML},%
+plural={SGMLs},%
+description={Standard Generalized Markup Language},%
+descriptionplural={Standard Generalized Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Standard Generalized Markup Language},%
+longplural={Standard Generalized Markup Languages},%
+short={SGML},%
+shortplural={SGMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SWT}{}%
+{%
+\gls@defglossaryentry{SWT}%
+{%
+name={SWT},%
+sort={SWT},%
+type={acronym},%
+first={Standard Widget Toolkit\glsspace (SWT)},%
+firstplural={Standard Widget Toolkits\glsspace (SWTs)},%
+text={SWT},%
+plural={SWTs},%
+description={Standard Widget Toolkit},%
+descriptionplural={Standard Widget Toolkit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Standard Widget Toolkit},%
+longplural={Standard Widget Toolkits},%
+short={SWT},%
+shortplural={SWTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{WDC}{}%
+{%
+\gls@defglossaryentry{WDC}%
+{%
+name={W3C},%
+sort={W3C},%
+type={acronym},%
+first={World Wide Web Consortium\glsspace (W3C)},%
+firstplural={World Wide Web Consortiums\glsspace (W3Cs)},%
+text={W3C},%
+plural={W3Cs},%
+description={World Wide Web Consortium},%
+descriptionplural={World Wide Web Consortium\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={World Wide Web Consortium},%
+longplural={World Wide Web Consortiums},%
+short={W3C},%
+shortplural={W3Cs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{WPF}{}%
+{%
+\gls@defglossaryentry{WPF}%
+{%
+name={WPF},%
+sort={WPF},%
+type={acronym},%
+first={Windows Presentation Foundation\glsspace (WPF)},%
+firstplural={Windows Presentation Foundations\glsspace (WPFs)},%
+text={WPF},%
+plural={WPFs},%
+description={Windows Presentation Foundation},%
+descriptionplural={Windows Presentation Foundation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Windows Presentation Foundation},%
+longplural={Windows Presentation Foundations},%
+short={WPF},%
+shortplural={WPFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XPath}{}%
+{%
+\gls@defglossaryentry{XPath}%
+{%
+name={XPath},%
+sort={XPath},%
+type={acronym},%
+first={XML Path Language\glsspace (XPath)},%
+firstplural={XML Path Languages\glsspace (XPaths)},%
+text={XPath},%
+plural={XPaths},%
+description={XML Path Language},%
+descriptionplural={XML Path Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={XML Path Language},%
+longplural={XML Path Languages},%
+short={XPath},%
+shortplural={XPaths},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XHTML}{}%
+{%
+\gls@defglossaryentry{XHTML}%
+{%
+name={XHTML},%
+sort={XHTML},%
+type={acronym},%
+first={Extensible Hypertext Markup Language\glsspace (XHTML)},%
+firstplural={Extensible Hypertext Markup Languages\glsspace (XHTMLs)},%
+text={XHTML},%
+plural={XHTMLs},%
+description={Extensible Hypertext Markup Language},%
+descriptionplural={Extensible Hypertext Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Hypertext Markup Language},%
+longplural={Extensible Hypertext Markup Languages},%
+short={XHTML},%
+shortplural={XHTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XML}{}%
+{%
+\gls@defglossaryentry{XML}%
+{%
+name={XML},%
+sort={XML},%
+type={acronym},%
+first={Extensible Markup Language\glsspace (XML)},%
+firstplural={Extensible Markup Languages\glsspace (XMLs)},%
+text={XML},%
+plural={XMLs},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Languages},%
+short={XML},%
+shortplural={XMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
