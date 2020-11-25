@@ -1,4 +1,4 @@
-Anleitung zur Verwendung der IUMS-LaTeX-Vorlage
+Anleitung zur Verwendung der LaTeX-Vorlage
 (Windows)
 
 1.	MiKTeX (https://miktex.org/download) oder alternative Distribution installieren
