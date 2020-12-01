@@ -1,20 +1,20 @@
 \input{_includes/header}
 
 % MetaData
-\newcommand{\IUMSauthor}{Vorname Nachname}
-\newcommand{\IUMSmatNr}{012345678}
+\newcommand{\SCMTauthor}{Vorname Nachname}
+\newcommand{\SCMTmatNr}{012345678}
 
-\newcommand{\IUMStype}{ART DES LEISTUNGSNACHWEISES\\ -BITTE ART UND BEZEICHNUNG ENTSPRECHEND DEN ANGABEN LEISTUNGSNACHWEISE IM EIS VERWENDEN} % Master-Thesis/ Bachelor-Thesis
-\newcommand{\IUMStitle}{DER LANGE TITEL DER\\ WISSENSCHAFTLICHEN ARBEIT}
-\newcommand{\IUMSsubtitle}{IM RAHMEN DES PROJEKT-KOMPETENZ-STUDIUMS\\ \vspace{0.25em} ZUM }
-\newcommand{\IUMSsubmissionMonth}{21. Dezember 2017} % z.B. \today
-\newcommand{\IUMSsubmissionDate}{21. Dezember 2017} % z.B. \today
+\newcommand{\SCMTtype}{ART DES LEISTUNGSNACHWEISES} %-BITTE ART UND BEZEICHNUNG ENTSPRECHEND DEN ANGABEN LEISTUNGSNACHWEISE IM EIS VERWENDEN} % Master-Thesis/ Bachelor-Thesis
+\newcommand{\SCMTtitle}{DER LANGE TITEL \\ DER WISSENSCHAFTLICHEN ARBEIT}
+\newcommand{\SCMTsubtitle}{IM RAHMEN DES PROJEKT-KOMPETENZ-STUDIUMS\\ \vspace{0.25em} ZUM }
+\newcommand{\SCMTsubmissionMonth}{21. Dezember 2017} % z.B. \today
+\newcommand{\SCMTsubmissionDate}{21. Dezember 2017} % z.B. \today
 \newcommand{\SCMTstartevent}{30. Oktober 2020} % z.B. \today
 \newcommand{\SCMTendevent}{30. Oktober 2020} % z.B. \today
 \newcommand{\SCMTdash}{ - }
 \newcommand{\SCMTlocation}{Stuttgart}
-\newcommand{\SCMTstudyprogramlarge}{MASTER OF WIRTSCHAFTSINFORMATIK }
-\newcommand{\SCMTstudyprogramregular}{Master of Wirtschaftsinformatik }
+\newcommand{\SCMTstudyprogramlarge}{MASTER OF <SOME> }
+\newcommand{\SCMTstudyprogramregular}{Master of <some> }
 \newcommand{\SCMTsupervisor}{Akad. Grad Vorname Nachname Hochschule}
 \newcommand{\companyname}{<Firma> }
 \newcommand{\companysupervisor}{Akad. Grad Vorname Nachname Unternehmen}
@@ -32,80 +32,80 @@
 \bibliography{bibliography/literatur}
 
 \begin{document}
-
-\include{_includes/titlepage}
-\pagenumbering{roman}
-
-\include{_includes/subtitlepage}
-
-\include{_includes/erklaerung}
-
-\include{_includes/sperrvermerk}
-
-\include{_includes/permission}
-
-\linespread{1.13}
-
-% \pdfbookmark[1]{Inhaltsverzeichnis}{toc}
-\tableofcontents					% create a toc
-%\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
-% wenn eine Seite beim Inhaltsverzeichnis fehlt (also zB drei statt vier Seiten lang ist):
-% \thispagestyle{empty}
-%\cleardoublepage
-
-\linespread{1}
-%\pagenumbering{arabic}
-%
-%\include{acronyms/acronymsTest}
-% bei vierseitigen Inhaltsverzeichnis erst im Kapitel 1
-%\pagenumbering{arabic}
-
-%%%%% ABBILDUNGSVERZEICHNIS %%%%%
-\listoffigures
-%\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-
-%%%%% TABELLENVERZEICHNIS %%%%%
-\listoftables
-
-%%%%%  GLOSSARY  %%%%%%
-%\printglossaries[type=acronym]
-\printglossary[title={Abkürzungsverzeichnis}] %Generate List of Abbreviations
-
-%%%%% QUELLCODEVERZEICHNIS %%%%%
-\renewcommand\lstlistlistingname{Programmcodeverzeichnis}
-\lstlistoflistings
-
-\newpage
-\cleardoublepage
-
-\linespread{1}
-\pagenumbering{arabic}
-%%%%% INHALTSKAPITEL %%%%%
-\include{chapters/1_einleitung}
-%\pagenumbering{arabic}
-\include{chapters/2_sota}
-\include{chapters/3_anforderungen}
-\include{chapters/3_konzeption}
-\include{chapters/4_implementierung}
-\include{chapters/6_evaluation}
-\include{chapters/5_zusammenfassung}
-
-\thispagestyle{empty}
-%\nocite{*}
-
-%%%%% BIBLIOGRAFIE %%%%%%
-%\shorthandoff{"}
-\printbibliography[title={Literaturverzeichnis}]
-%\shorthandon{"}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% ANHANG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{appendix}
-\appendix
-%\pagenumbering{roman}
-\input{chapters/a_anhang}
-
-
-
-%\end{appendix}
-
+	
+	\include{_includes/titlepage}
+	\pagenumbering{roman}
+	
+	\include{_includes/subtitlepage}
+	
+	\include{_includes/erklaerung}
+	
+	\include{_includes/sperrvermerk}
+	
+	\include{_includes/permission}
+	
+	\linespread{1.13}
+	
+	% \pdfbookmark[1]{Inhaltsverzeichnis}{toc}
+	\tableofcontents					% create a toc
+	%\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+	% wenn eine Seite beim Inhaltsverzeichnis fehlt (also zB drei statt vier Seiten lang ist):
+	% \thispagestyle{empty}
+	%\cleardoublepage
+	
+	\linespread{1}
+	%\pagenumbering{arabic}
+	%
+	%\include{acronyms/acronymsTest}
+	% bei vierseitigen Inhaltsverzeichnis erst im Kapitel 1
+	%\pagenumbering{arabic}
+	
+	%%%%% ABBILDUNGSVERZEICHNIS %%%%%
+	\listoffigures
+	%\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+	
+	%%%%% TABELLENVERZEICHNIS %%%%%
+	\listoftables
+	
+	%%%%%  GLOSSARY  %%%%%%
+	%\printglossaries[type=acronym]
+	\printglossary[title={Abkürzungsverzeichnis}] %Generate List of Abbreviations
+	
+	%%%%% QUELLCODEVERZEICHNIS %%%%%
+	\renewcommand\lstlistlistingname{Programmcodeverzeichnis}
+	\lstlistoflistings
+	
+	\newpage
+	\cleardoublepage
+	
+	\linespread{1}
+	\pagenumbering{arabic}
+	%%%%% INHALTSKAPITEL %%%%%
+	\include{chapters/1_einleitung}
+	%\pagenumbering{arabic}
+	\include{chapters/2_sota}
+	\include{chapters/3_anforderungen}
+	\include{chapters/3_konzeption}
+	\include{chapters/4_implementierung}
+	\include{chapters/6_evaluation}
+	\include{chapters/5_zusammenfassung}
+	
+	\thispagestyle{empty}
+	%\nocite{*}
+	
+	%%%%% BIBLIOGRAFIE %%%%%%
+	%\shorthandoff{"}
+	\printbibliography[title={Literaturverzeichnis}]
+	%\shorthandon{"}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%% ANHANG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%\begin{appendix}
+	\appendix
+	%\pagenumbering{roman}
+	\input{chapters/a_anhang}
+	
+	
+	
+	%\end{appendix}
+	
 \end{document}

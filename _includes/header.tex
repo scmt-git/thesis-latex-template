@@ -1,6 +1,6 @@
 \documentclass[DIV=10, parskip=full*, headings=big, twopage, pdftex, 11pt, cleardoublepage=plain,
-				bibliography=totoc, listof=totoc, BCOR=12mm,
-				numbers=noenddot]{scrbook}
+bibliography=totoc, listof=totoc, BCOR=12mm,
+numbers=noenddot]{scrbook}
 
 \usepackage[ngerman]{babel}
 
@@ -53,7 +53,8 @@
 \fontfamily{phv}\fontseries{m}\selectfont
 
 % AvantGarde f�r �berschriften
-\renewcommand{\sfdefault}{phv} % default f�r alles serifenlose --> AvantGarde
+%\renewcommand{\familydefault}{\sfdefault} % Für die serifenlose Schriftart
+\renewcommand{\sfdefault}{phv} % default f�r alles "serifenlose "--> AvantGarde
 \setkomafont{subtitle}{\fontfamily{phv}\fontseries{m}\selectfont}
 \setkomafont{subject}{\fontfamily{phv}\fontseries{m}\selectfont}
 \setkomafont{pagehead}{\sffamily\footnotesize}
@@ -101,42 +102,42 @@
 \definecolor{darkred}{rgb}{0.85, 0.3, 0.4}
 \usepackage{courier}
 \lstset{
-		basicstyle=\small\ttfamily,
-		keywordstyle=\color{blue},
-		stringstyle=\color{darkred},
-		commentstyle=\tiny\color{gray}
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	stringstyle=\color{darkred},
+	commentstyle=\tiny\color{gray}
 }
 % voreingestellte Programmiersprache: Java
 \lstset{
-        language=Java, 
-        breaklines=true, 
-        breakautoindent=true, 
-        breakatwhitespace=true, 
-        numbers=left, 
-        numberstyle=\tiny,
-        extendedchars=true,
-        rulesepcolor=\color{red},
-        frame=lines,
-        keywordstyle=\color{blue},
-        commentstyle=\color{gray},
-        stringstyle=\color{darkred},
-        emph={double,bool,int,unsigned,char,true,false,void},
-				emphstyle=\color{blue},
-				emph={Assert,Test},
-				emphstyle=\color{red},
-				emph={[2]\using,\#define,\#ifdef,\#endif}, emphstyle={[2]\color{blue}},
-		basicstyle=\small\ttfamily,
-		showstringspaces=false,
-		commentstyle=\tiny}
-		
+	language=Java, 
+	breaklines=true, 
+	breakautoindent=true, 
+	breakatwhitespace=true, 
+	numbers=left, 
+	numberstyle=\tiny,
+	extendedchars=true,
+	rulesepcolor=\color{red},
+	frame=lines,
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray},
+	stringstyle=\color{darkred},
+	emph={double,bool,int,unsigned,char,true,false,void},
+	emphstyle=\color{blue},
+	emph={Assert,Test},
+	emphstyle=\color{red},
+	emph={[2]\using,\#define,\#ifdef,\#endif}, emphstyle={[2]\color{blue}},
+	basicstyle=\small\ttfamily,
+	showstringspaces=false,
+	commentstyle=\tiny}
+
 
 \usepackage[
-	pdftex,
-	hyperfootnotes=false,
-	bookmarks,
-	pdfpagelabels=true,
-	plainpages=false,
-	breaklinks]{hyperref} % f�r Verlinkungen in der PDF (extern und intern)
+pdftex,
+hyperfootnotes=false,
+bookmarks,
+pdfpagelabels=true,
+plainpages=false,
+breaklinks]{hyperref} % f�r Verlinkungen in der PDF (extern und intern)
 
 
 %colorlinks=false needs to be true in order to apply color
@@ -197,7 +198,7 @@
 %%%%%%%%%% Pagina und Kolumnentitel %%%%%%%%%%%%%
 \pagestyle{scrheadings}
 \ohead{\headmark}
-\ihead{\IUMSauthor}
+\ihead{\SCMTauthor}
 
 \ofoot{\pagemark}
 \ifoot{\SCMTsecretdocument}

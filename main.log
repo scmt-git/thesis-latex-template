@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.10)  25 NOV 2020 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.10)  1 DEC 2020 19:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -874,12 +874,12 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `pagehead' that is an alias of element
-(scrkbase)             `pageheadfoot' on input line 59.
+(scrkbase)             `pageheadfoot' on input line 60.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 73.
+Package scrhack Info: loading setspace hack on input line 74.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\setspace.ha
 k
@@ -1113,7 +1113,7 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 98.
+Package scrhack Info: loading listings hack on input line 99.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\listings.ha
 k
@@ -1171,7 +1171,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 140.
+(scrhack)             need that hack, on input line 141.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
@@ -1271,13 +1271,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip122
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 168.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 168.
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 168
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 169.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 169.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 169
 .
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 168
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 169
 .
-Package hyperref Info: Option `colorlinks' set `false' on input line 168.
+Package hyperref Info: Option `colorlinks' set `false' on input line 169.
 
 (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
 rpage.sty
@@ -1908,7 +1908,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 1.
 
 
 ]
-Package hyperref Info: Option `pageanchor' set `true' on input line 75.
+Package hyperref Info: Option `pageanchor' set `true' on input line 70.
 )
 \openout2 = `_includes/erklaerung.aux'.
 
@@ -2125,20 +2125,16 @@ No file chapters/6_evaluation.tex.
 
 ]
 chapter 5.
-[9] [10
+) [9] [10
 
 
-])
+
+]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-(chapters/a_anhang.tex [11
-\FN@pp@footnotehinttrue 
-
-
-
-] [12
+(chapters/a_anhang.tex [11] [12
 
 
 ]
@@ -2165,8 +2161,14 @@ Overfull \hbox (14.41995pt too wide) in paragraph at lines 21--22
 ung (Op-ti-on \T1/pcr/m/n/10.95 \parskip
  []
 
-[14]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [15]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 82.
@@ -2175,7 +2177,7 @@ Overfull \hbox (98.08879pt too wide) in paragraph at lines 86--86
 [] 
  []
 
-) [16
+) [16] [17
 runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed (a
 llowed).
 
@@ -2204,13 +2206,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44783 strings out of 480790
- 877856 string characters out of 2897301
- 1760137 words of memory out of 3000000
+ 44792 strings out of 480790
+ 877925 string characters out of 2897301
+ 1761032 words of memory out of 3000000
  59545 multiletter control sequences out of 15000+200000
- 612459 words of font info for 273 fonts, out of 3000000 for 9000
+ 612905 words of font info for 279 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 76i,20n,109p,10626b,2333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,20n,109p,10626b,2281s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><
 C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb
@@ -2221,9 +2223,9 @@ hvro8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
 no/uplb8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
 atino/uplr8a.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on main.pdf (31 pages, 207490 bytes).
+Output written on main.pdf (32 pages, 207707 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  65791 words of extra memory for PDF output out of 74296 (max. 10000000)
 
